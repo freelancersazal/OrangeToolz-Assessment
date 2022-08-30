@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Design</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css"
+        integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+
+    <!--=========================
+        DASHBOARD START
+    ==========================-->
+    <section class="dashboard">
+        <div class="dashboard_menu">
+            <a class="logo" href="#"><img src="images/logo.png" alt="logo"></a>
+            <div class="dashboard_menu_right">
+                <p>balance: <span>$125</span></p>
+                <ul>
+                    <li>
+                        <img src="images/user.png" alt="user">
+                        <h3>alexa jui</h3>
+                        <span><i class="fas fa-chevron-down"></i></span>
+                    </li>
+                </ul>
+                <ul class="droapdown_menu">
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">Add Fund</a></li>
+                    <li><a href="#">API Documentation</a></li>
+                    <li><a href="#"><span><i class="fas fa-sign-out-alt"></i></span> Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dashboard_sidebar">
+            <p class="mobile_menu_btn">
+                <span class="icon_bar"><i class="fas fa-bars"></i></span>
+                <span class="icon_close"><i class="fas fa-times"></i></span>
+            </p>
+            <a class="logo" href="#"><img src="images/logo.png" alt="logo"></a>
+            <ul>
+                <li><a href="#"><span><i class="fas fa-bars"></i></span> dashboard</a></li>
+                <li><a href="#"><span><i class="fas fa-search"></i></span> lookup</a></li>
+                <li><a href="#"><span><i class="far fa-clone"></i></span> files</a></li>
+                <li class="droapdown"><a href="#"><span><i class="fas fa-file-csv"></i></span> logos</a>
+                    <ul class="sidebar_droapdown">
+                        <li><a href="#"><span><i class="fas fa-file-alt"></i></span> Single/Bulk Lookup</a></li>
+                        <li><a href="#"><span><i class="fas fa-chart-pie"></i></span> Daily Usages</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><span><i class="fas fa-file-invoice-dollar"></i></span> buy credits</a></li>
+                <li><a href="#"><span><i class="fas fa-certificate"></i></span> intergrations</a></li>
+                <li><a class="active" href="#"><span><i class="fas fa-user-alt"></i></span> my profile</a></li>
+            </ul>
+        </div>
+
+        <div class="dashboard_body">
+            <div class="dashboard_body_header">
+                <div class="user_info">
+                    <img src="images/user.png" alt="alexa jui">
+                    <h3>alexa jui</h3>
+                    <a href="mailto:alexajui@gmail.com">mailto:alexajui@gmail.com</a>
+                    <a href="callto:+13547854125">+13547854125</a>
+                    <p>3213 D street, columbus, USA</p>
+                </div>
+                <div class="dashboard_credit_card">
+                    <h2>Your Credit Cards</h2>
+                    <div class="dashboard_credit_card_area">
+                        <div class="dashboard_single_card">
+                            <span><i class="far fa-trash-alt"></i></span>
+                            <h3>Credit Card 1</h3>
+                            <input type="text" placeholder="xxxxxxxxxxxx4684">
+                        </div>
+                        <div class="dashboard_single_card">
+                            <span><i class="far fa-trash-alt"></i></span>
+                            <h3>Credit Card 1</h3>
+                            <input type="text" placeholder="xxxxxxxxxxxx4684">
+                        </div>
+                        <div class="dashboard_single_card">
+                            <span><i class="far fa-trash-alt"></i></span>
+                            <h3>Credit Card 1</h3>
+                            <input type="text" placeholder="xxxxxxxxxxxx4684">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard_tab_area">
+                <div class="dashboard_tab_button">
+                    <button class="tab_button" data-id="profile">Update Profile</button>
+                    <button class="tab_button" data-id="password">Change Password</button>
+                    <button class="tab_button active" data-id="email">Email Notifications</button>
+                    <button class="tab_button" data-id="setting">Auto Recharge Settings</button>
+                </div>
+                <div class="dashboard_tab_body">
+                    <div class="content" id="profile">
+                        <h3>Update Profile</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit incidunt nostrum?
+                            Magni, quam vero, magnam odio similique ipsam minima et repellat rerum cupiditate totam in
+                            repudiandae. Sed, dicta corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores, dolore quas quis earum incidunt voluptas! Ducimus quod libero aliquid
+                            consequatur et modi porro officia, quibusdam quas commodi placeat maxime qui? Lorem ipsum,
+                            dolor sit amet consectetur adipisicing elit. Ab ea debitis eligendi accusamus deleniti
+                            maxime pariatur. Assumenda, facere placeat eius quam magni accusantium aut quae minima iure
+                            atque incidunt illum.</p>
+                    </div>
+                    <div class="content" id="password">
+                        <h3>Change Password</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit incidunt nostrum?
+                            Magni, quam vero, magnam odio similique ipsam minima et repellat rerum cupiditate totam in
+                            repudiandae. Sed, dicta corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores, dolore quas quis earum incidunt voluptas! Ducimus quod libero aliquid
+                            consequatur et modi porro officia, quibusdam quas commodi placeat maxime qui? Lorem ipsum,
+                            dolor sit amet consectetur adipisicing elit. Ab ea debitis eligendi accusamus deleniti
+                            maxime pariatur. Assumenda, facere placeat eius quam magni accusantium aut quae minima iure
+                            atque incidunt illum.</p>
+                    </div>
+                    <div class="content active" id="email">
+                        <div class="notification_list">
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider round"></span>
+                            </label>
+                            <p>Notify me when list verification completes</p>
+                        </div>
+                        <div class="notification_list deactive">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                            <p>Notify me when list export completes</p>
+                        </div>
+                        <div class="notification_list">
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider round"></span>
+                            </label>
+                            <p>Notify me when list verification result is about to expire</p>
+                        </div>
+                        <div class="notification_list_form">
+                            <div class="notification_list">
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                                <p>Receive Low Credits Email</p>
+                            </div>
+
+                            <form action="#">
+                                <div class="single_input_area">
+                                    <div class="single_input">
+                                        <label>Send Email to*</label>
+                                        <input type="text" placeholder="alexajui@gmail.com">
+                                    </div>
+                                    <div class="single_input">
+                                        <label>When credits are less than*</label>
+                                        <input type="text" placeholder="50">
+                                    </div>
+                                </div>
+                                <button type="submit">Save Changes</button>
+                            </form>
+                        </div>
+
+
+
+                    </div>
+                    <div class="content" id="setting">
+                        <h3>Auto Recharge Settings</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit incidunt nostrum?
+                            Magni, quam vero, magnam odio similique ipsam minima et repellat rerum cupiditate totam in
+                            repudiandae. Sed, dicta corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores, dolore quas quis earum incidunt voluptas! Ducimus quod libero aliquid
+                            consequatur et modi porro officia, quibusdam quas commodi placeat maxime qui? Lorem ipsum,
+                            dolor sit amet consectetur adipisicing elit. Ab ea debitis eligendi accusamus deleniti
+                            maxime pariatur. Assumenda, facere placeat eius quam magni accusantium aut quae minima iure
+                            atque incidunt illum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========================
+        DASHBOARD START
+    ==========================-->
+
+
+    <!--main/custom js-->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
